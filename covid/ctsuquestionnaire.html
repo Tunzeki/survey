@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Impact of COVID-19 on the training of cardiothoracic surgery residents in Nigeria</title>
+	<link rel="stylesheet" href="css/residencyquestionnaire.css">
+</head>
+<body>
+	<header>
+		<h1>Impact of COVID-19 on the training of cardiothoracic surgery residents in Nigeria</h1>
+	</header>
+	<section>
+		<form>
+			<h2>Training Background</h2>
+			<p>1. Gender</p>
+			<label><input type="radio" name="gender" value="Female" required>Female</label><br>
+			<label><input type="radio" name="gender" value="Male" required>Male</label><br><br>
+
+			<p>2. Year of training</p>
+			<label><input type="radio" name="trainingYear" value="Year 1" required>Year 1</label><br>
+			<label><input type="radio" name="trainingYear" value="Year 2" required>Year 2</label><br>
+			<label><input type="radio" name="trainingYear" value="Year 3" required>Year 3</label><br>
+			<label><input type="radio" name="trainingYear" value="Year 4" required>Year 4</label><br>
+			<label><input type="radio" name="trainingYear" value="Year 5" required>Year 5</label><br>
+			<label><input type="radio" name="trainingYear" value="Year 6" required>Year 6</label><br>
+			<label><input type="radio" name="trainingYear" value="Year 7" required>Year 7</label><br>
+			<label><input type="radio" name="trainingYear" value="Other" required>Other</label>
+			<label for="trainingYear">Please state</label><input type="text" name="trainingYear" id="trainingYear" size="30"><br><br>
+
+			<label for="subspecialtyFebruary">3. What subspecialty were you working in February 2020?</label><br>
+				<input type="text" name="subspecialtyFebruary" id="subspecialtyFebruary" required><br><br>
+
+				<h2>Daily practice</h2>
+				<p>4. Please state how many hours per week you spent performing each of the following activities in your PARENT SPECIALTY</p>
+
+				<table>
+					<tr><th></th><th>Before the pandemic</th><th>During the current pandemic</th></tr>
+					<tr><td>Outpatient Clinic</td><td><input type="text" name="outpatientClinic" pattern="[0-9]{1-3}" placeholder="please write the number only" required></td><td><input type="text" name="outpatientClinic" pattern="[0-9]{1-3}" placeholder="please write the number only" required></td></tr>
+					<tr><td>Ward Round</td><td><input type="text" name="wardRound" pattern="[0-9]{1-3}" placeholder="please write the number only" required></td><td><input type="text" name="wardRound" pattern="[0-9]{1-3}" placeholder="please write the number only" required></td></tr>
+					<tr><td>Operating Theatre</td><td><input type="text" name="operatingTheatre" pattern="[0-9]{1-3}" placeholder="please write the number only" required></td><td><input type="text" name="operatingTheatre" pattern="[0-9]{1-3}" placeholder="please write the number only" required></td></tr>
+					<tr><td>Grand Round</td><td><input type="text" name="grandRound" pattern="[0-9]{1-3}" placeholder="please write the number only" required></td><td><input type="text" name="grandRound" pattern="[0-9]{1-3}" placeholder="please write the number only" required></td></tr>
+					<tr><td>Research/Audit</td><td><input type="text" name="research" pattern="[0-9]{1-3}" placeholder="please write the number only" required></td><td><input type="text" name="research" pattern="[0-9]{1-3}" placeholder="please write the number only" required></td></tr>
+					<tr><td>Learning (including self-directed)</td><td><input type="text" name="learning" pattern="[0-9]{1-3}" placeholder="please write the number only" required></td><td><input type="text" name="learning" pattern="[0-9]{1-3}" placeholder="please write the number only" required></td></tr>
+					<tr><td>Free/Flexible Time At Work</td><td><input type="text" name="freeTime" pattern="[0-9]{1-3}" placeholder="please write the number only" required></td><td><input type="text" name="freeTime" pattern="[0-9]{1-3}" placeholder="please write the number only" required></td></tr>
+
+				</table>
+
+				<p>5. Please indicate the number of patient encounters or operative case numbers performed in your PARENT SPECIALTY each week</p>
+
+				<table>
+					<tr><th></th><th>Before the pandemic</th><th>During the current pandemic</th></tr>
+					<tr><td>Follow-up patients YOU have seen in clinic</td><td><input type="text" name="yourFollow-upPatient" pattern="[0-9]{1-3}" placeholder="please write the number only" required></td><td><input type="text" name="yourFollow-upPatient" pattern="[0-9]{1-3}" placeholder="please write the number only" required></td></tr>
+					<tr><td>New patients YOU have seen in clinic</td><td><input type="text" name="yourNewPatient" pattern="[0-9]{1-3}" placeholder="please write the number only" required></td><td><input type="text" name="yourNewPatient" pattern="[0-9]{1-3}" placeholder="please write the number only" required></td></tr>
+					<tr><td>TOTAL number of theatre cases in your DEPARTMENT</td><td><input type="text" name="totalTheatreCases" pattern="[0-9]{1-3}" placeholder="please write the number only" required></td><td><input type="text" name="totalTheatreCases" pattern="[0-9]{1-3}" placeholder="please write the number only" required></td></tr>
+					<tr><td>Cases YOU assisted in theatre</td><td><input type="text" name="yourAssistedCases" pattern="[0-9]{1-3}" placeholder="please write the number only" required></td><td><input type="text" name="yourAssistedCases" pattern="[0-9]{1-3}" placeholder="please write the number only" required></td></tr>
+					<tr><td>Minor cases YOU performed in theatre</td><td><input type="text" name="yourMinorCases" pattern="[0-9]{1-3}" placeholder="please write the number only" required></td><td><input type="text" name="yourMinorCases" pattern="[0-9]{1-3}" placeholder="please write the number only" required></td></tr>
+					<tr><td>Major cases YOU performed in theatre</td><td><input type="text" name="yourMajorCases" pattern="[0-9]{1-3}" placeholder="please write the number only" required></td><td><input type="text" name="yourMajorCases" pattern="[0-9]{1-3}" placeholder="please write the number only" required></td></tr>
+				</table>
+
+				<p>6. Have you been redeployed to cover specialties other than the one you are meant to be training in, as a result of the current pandemic?</p>
+				<label><input type="radio" name="redeployed" required>No</label><br>
+				<label><input type="radio" name="redeployed" required>Yes - covering both cardiac and thoracic surgery</label><br>
+				<label><input type="radio" name="redeployed" required>Yes - covering other surgical specialties</label><br>
+				<label><input type="radio" name="redeployed" required>Yes - covering intensive care</label><br>
+				<label><input type="radio" name="redeployed" required>Yes - covering "non-COVID-19" medical wards</label><br>
+				<label><input type="radio" name="redeployed" required>Yes - covering "COVID-19" medical wards</label><br>
+				<label><input type="radio" name="redeployed" required>Yes - covering acute medical or emergency admissions</label>
+
+				<p>7. What proportion of your working hours are currently spent caring for patients in your parent specialty(i.e. the specialty you are meant to be training in)?</p>
+				<label><input type="radio" name="workingHours" required>0%</label><br>
+				<label><input type="radio" name="workingHours" required>&lt;25%</label><br>
+				<label><input type="radio" name="workingHours" required>25-50%</label><br>
+				<label><input type="radio" name="workingHours" required>50-75%</label><br>
+				<label><input type="radio" name="workingHours" required>>75%</label><br>
+				<label><input type="radio" name="workingHours" required>100%</label>
+
+				<p>8. How confident are you in performing your current role?</p>
+				<label><input type="radio" name="confidence" required>Not confident at all</label><br>
+				<label><input type="radio" name="confidence" required>Slightly confident</label><br>
+				<label><input type="radio" name="confidence" required>Moderately confident</label><br>
+				<label><input type="radio" name="confidence" required>Quite confident</label><br>
+				<label><input type="radio" name="confidence" required>Extremely confident</label><br><br>
+
+
+				<h2>Your training and progression</h2>
+				<p>9. Are you concerned about the impact of the current pandemic on your training and progression?</p>
+				<label><input type="radio" name="concerned?" required>No</label><br>
+				<label><input type="radio" name="concerned?" required>Yes - somewhat concerned</label><br>
+				<label><input type="radio" name="concerned?" required>Yes - very concerned</label><br>
+
+				<p>10. Do you feel the current pandemic would cause an extension of the normal duration of your residency training?</p>
+				<label><input type="radio" name="transitionjobs?" required>Yes - I feel this situation merits an extension to my training time</label><br>
+				<label><input type="radio" name="transitionjobs?" required>No - but only if the current disruption lasts less than 3 months</label><br>
+				<label><input type="radio" name="transitionjobs?" required>No - but only if the current disruption lasts less than 6 months</label><br>
+				<label><input type="radio" name="transitionjobs?" required>No - regardless of the duration of the current level of disruption</label><br>
+				
+				<p>11. How is your current practice contributing to your professional development?</p>
+				<label><input type="radio" name="professionaldevelopment" required>Little to no relevant learning in current role; this is deterring my professional development</label><br>
+				<label><input type="radio" name="professionaldevelopment" required>Valuable learning - comparable with routine pre-COVID-19 progression - but difficult to map to curriculum</label><br>
+				<label><input type="radio" name="professionaldevelopment" required>Valuable learning - comparable with routine pre-COVID-19 progression - and can be mapped to curriculum</label><br>
+				<label><input type="radio" name="professionaldevelopment" required>Above average learning experience; excellent progression and contribution to my professional development</label><br><br>
+
+			<input type="submit" name="submit">
+		</form>
+	</section>
+</body>
+</html>
