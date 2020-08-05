@@ -14,6 +14,7 @@ h2{
 table{
 	width: 90%;
 	border-collapse: collapse;
+	overflow: auto;
 }
 td, th{
 	border-bottom: 1px solid;
