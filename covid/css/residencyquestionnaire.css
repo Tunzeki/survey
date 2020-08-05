@@ -1,9 +1,10 @@
 h1{
-	color: rgba(0, 170, 255, 1);
+	color: rgba(0, 85, 128, 1);
 }
 body{
 	background-color: rgba(255, 255, 255, 1);
 	font-family: Arial, Helvetica;
+	-webkit-font-size: 100%;
 }
 h2{
 	font-size: 120%;
@@ -12,5 +13,9 @@ h2{
 }
 table{
 	width: 90%;
-	background-color: rgba(102, 204, 255, 0.9);
+	border-collapse: collapse;
+}
+td, th{
+	border-bottom: 1px solid;
+	padding: 0.5em 0.1em 0.5em;
 }
